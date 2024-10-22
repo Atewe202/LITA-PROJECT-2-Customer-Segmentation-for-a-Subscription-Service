@@ -5,4 +5,17 @@ segments and trends. Your goal is to understand customer behavior, track subscri
 and identify key trends in cancellations and renewals. The final deliverable is a Power BI
 dashboard that presents your analysis.
 
-### 
+### Summary of Porject
+
+### Data Source
+
+### Tools Used
+
+### Data Cleaning
+
+### Explaratory Data Analysis
+
+### Data Analysis
+
+### Visulization
+ 
