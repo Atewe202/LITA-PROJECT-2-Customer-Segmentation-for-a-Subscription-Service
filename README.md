@@ -23,4 +23,16 @@ dashboard that presents your analysis.
 
  ![Most Popular Subscription Type - BASIC](https://github.com/user-attachments/assets/613271a0-52be-4a5e-a206-f56a4ce4dec8)
 
+ ![Customer Data Subscription Pattern A-Pivotable](https://github.com/user-attachments/assets/a4368d55-c6d3-4e8a-9105-a7893ce442d6)
+
+ ![Customer Data Subscription Pattern B-Pivotable](https://github.com/user-attachments/assets/114f5a69-ee80-46d0-9a3a-ff5a12c93964)
+ 
+![Customer Data Performance Report png](https://github.com/user-attachments/assets/1c81f629-5e31-4014-a148-da89ca064d5e)
+
+
+
+ 
+
+
+
  
