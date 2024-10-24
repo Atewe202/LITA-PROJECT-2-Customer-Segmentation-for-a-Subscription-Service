@@ -21,5 +21,6 @@ dashboard that presents your analysis.
 
 ![Average Subcsription Duration](https://github.com/user-attachments/assets/b5b3aad8-a634-40cd-8cc8-73a39e60cb97)
 
- 
+ ![Most Popular Subscription Type - BASIC](https://github.com/user-attachments/assets/613271a0-52be-4a5e-a206-f56a4ce4dec8)
+
  
