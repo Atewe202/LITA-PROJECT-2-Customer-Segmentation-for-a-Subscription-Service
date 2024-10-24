@@ -18,4 +18,8 @@ dashboard that presents your analysis.
 ### Data Analysis
 
 ### Visulization
+
+![Average Subcsription Duration](https://github.com/user-attachments/assets/b5b3aad8-a634-40cd-8cc8-73a39e60cb97)
+
+ 
  
