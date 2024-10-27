@@ -6,7 +6,31 @@ and identify key trends in cancellations and renewals. The final deliverable is 
 dashboard that presents your analysis.
 
 ### Summary of Porject
-
+### Objectives of the Project
+1. Excel:
+ - Analyze customer data using pivot tables to find subscription patterns.
+ - Calculate the average subscription duration and identify the most popular
+     subscription types.
+ - Create any other interesting reports.
+   
+2. SQL:
+ - to load the dataset into your SQL Server environment to write
+     and validate your queries.
+  - Write queries to extract key insights based on the following questions.
+  - retrieve the total number of customers from each region.
+  - find the most popular subscription type by the number of customers.
+  - find customers who canceled their subscription within 6 months.
+  - calculate the average subscription duration for all customers.
+  - find customers with subscriptions longer than 12 months.
+  - calculate total revenue by subscription type.
+  - find the top 3 regions by subscription cancellations.
+  - find the total number of active and canceled subscriptions.
+    
+3. Power BI:
+- Build a Power BI dashboard that visualizes key customer segments,
+     cancellations, and subscription trends.
+ - Include slicers for interactive analysis.
+   
 ### Data Source
 
 ### Tools Used
