@@ -58,40 +58,125 @@ The dataset include the following key columns
 
 ### Explaratory Data Analysis
 Excel:summarize
-- Total sales by product:- BASIC subcription was the most populous subscription type. Out of a total of 33,776,735 with a total subscribers of 16,921.
-- This was followed by Premium with total revenue of  16,899x,064 with 8,446 subcribers while Standard was 16,864,376 with 8,420 subscribers.
-- This could be due
+- Total sales by product:-
+- 
+- ![Screenshot 2024-11-02 152246](https://github.com/user-attachments/assets/d22032e4-6775-40d3-b0ae-3407f83d3847)
+
+-  Insights
+-  BASIC subcription was the most populous subscription type. Out of the a total of 67,540,175 gegenrated, 33,776,735 was from Basic subcriptiontupe, which represents 50% of the total revenue and a subscribersbase of 3,553,325. The other two types  Premium and Standard generated generated 16,899,064 (25%) and 16,864,376 (25%) respectively. the subscriber for Premium and Standard are 1,773,724 (25%) and 1,765,346(25%)
+- The top performance of subscriptiontype BASIC could be due to:
    1. Affordability 
    2. the fact that it provides the essential features meeting the customers need
-   3. It suits their simple requirement usage
-- Total sales by Region:- 
-- Total sales by Month:
-o Use Excel formulas to calculate metrics such as average sales per product and
-total revenue by region.
-o Create any other interesting report
-2. SQL:
-Hint – You need to load the dataset into your SQL Server environment to write and
-validate your queries.
-Write queries to extract key insights based on the following questions.
-o retrieve the total sales for each product category.
-o find the number of sales transactions in each region.
-o find the highest-selling product by total sales value.
-o calculate total revenue per product.
-o calculate monthly sales totals for the current year.
-o find the top 5 customers by total purchase amount.
-o calculate the percentage of total sales contributed by each region.
-o identify products with no sales in the last quarter.
-3. Power BI:
-o Create a dashboard that visualizes the insights found in Excel and SQL. The
-dashboard should include a sales overview, top-performing products, and
-regional breakdowns.
+   3. It suits their simple requirement usage given that 50% of their customers are subscribed to this
+      
+ - the low patroage to Premium and Standard subcripttiontype may due to the prevailing economic situation
+ - Review sales strtegies and optimize ressources to improve performance of the two subscription type
+ - effort should be put in place to maintain and improve the quality of Basic services to retain customers and attract potential ones
+
+   Total sales of Products and Canceled Subscribers: Insights
+
+   ![Screenshot 2024-11-02 153909](https://github.com/user-attachments/assets/1d5f0ed5-fdf6-4bc5-af63-c19eddd2c14c)
+
+   - The analysis showed that of the 50% Basic subscribers 15% of them canceled their subscription while Premium and Standard subscribers had 15% each that canceled their subscription.
+   - This high rate calls for reassessment of the processes in place.
+   - Areas recommendaed for assessment include the following
+      1. Ease of payment
+      2. Availablility of services
+      3. Prevailing economic situation and
+      4. Market forces like competotors
+
+   ### Recommendations
+   - Conduct customer satisfaction survey to get feedback from subscribers
+   - Run promo to gain more customers
+      
+- Total sales by Region:-Insights
+- 
+- ![Screenshot 2024-11-02 154847](https://github.com/user-attachments/assets/70ea2630-5d69-4851-892b-81aa6942ada0)
+- ![Screenshot 2024-11-02 154847](https://github.com/user-attachments/assets/351c3ce2-a52b-40d2-aa39-9751255b26ab)
+
+
+- The revenue generated across the regions is almost the same with little with no significant difference. This shows wide acceptance of service.
+-  The highest revenue was generated from the East with a total revenue of 16,958,763 and a revenue percentage of 25,11% while the lowest revenue from the north was 16,819,972  with a percentage of 24.97%.
+-  However of the 7,712,397 subscribers, 3,198,811 canceled their subscription which represents 45% of the total scribers.
+-  A brakdown of canceled subscribers on regional basis showned that the highest came from the North, West and South with all ranking approximately 15% each of their total scribers.
+-  incidentally no subscription was canceled by any subscriber in the East
+   
+ Inferences
+- There is uniform customer needs across the regions
+- Consistent marketing stategies
+- comparable competition
+- There is need to localise strategies to the regions to reduce ghigh rate of cancelation especially in the concerned regions
+  
+ Recommendation
+- that there should be targeted investment in emerging markets
+- strategies can also be basedd on regional perofrmance
+
+### Month by Revenue: Insights
+
+  ![Screenshot 2024-11-02 180905](https://github.com/user-attachments/assets/cbc7be8b-0c1d-4770-97ef-e2efdc06a751)
+
+- The is no distinct pattern noticed by the monthly subscription. 
+- The reevenue generated ranges rom 3,326,152 to 3,437,444 and customernumber from 339,048 t0 372,900 with approximate percentage of 5%.
+
+### Inference
+- 60% of the revenue generated in 2022 was from Basic while the rest contributed 15% each of the total revenue generated in two years
+- 40 % of the revenue generated in 2023 came from Basic while the rest contibuted 10% each of the total revuenue
+- the contribution from each region is uniform across the board- 15% in 2022 and 10% in 2023
+
+Recommendation
+- There is need to expand market effort in all the regions
+- Examine impact of pricing on revenue growth
+- Monthly promotions  can be introduced e.g incentives/discount for early subscription
+
+  ### SQL
+  Write queries to extract key insights based on the following questions.
+  - retrieve the total number of customers from each region.
+ 
+  - ![Screenshot 2024-11-02 175007](https://github.com/user-attachments/assets/0a77ac7c-5976-4ee6-ac16-410862b4b623)
+
+  - find the most popular subscription type by the number of customers.
+  - ![Screenshot 2024-11-02 180227](https://github.com/user-attachments/assets/bc654e59-d9d9-4b02-8dd9-302e18d6bc1e)
+
+  - find customers who canceled their subscription within 6 months.
+  - ![Screenshot 2024-11-02 180129](https://github.com/user-attachments/assets/4bc99b17-2c34-4d54-bcb4-7a0155e388df)
+
+  - calculate the average subscription duration for all customers.
+  - ![Screenshot 2024-11-02 180004](https://github.com/user-attachments/assets/ad78cd2a-15f5-4712-a6cb-51b973f3b64e)
+
+  - find customers with subscriptions longer than 12 months.
+ -![image](https://github.com/user-attachments/assets/0f0d1a2f-052a-4e9e-a0a1-ff2a94ee1876)
+
+    
+  - calculate total revenue by subscription type.
+  - ![Screenshot 2024-11-02 175845](https://github.com/user-attachments/assets/d13b2bf1-d38e-4bc3-b415-563549d917d2)
+
+  - find the top 3 regions by subscription cancellations.
+    ![Screenshot 2024-11-02 175730](https://github.com/user-attachments/assets/37de518f-b8b6-493d-9c0c-dda982ffed5e)
+
+  - find the total number of active and canceled subscriptions.
+  - ![Screenshot 2024-11-02 175612](https://github.com/user-attachments/assets/1ef21de9-5842-425c-ae2a-5f2939003658)
+
+    
+
+
 ### Data Analysis
 - - Datedif(SubscriptionStart, SubscriptionEnd, "D") was used to calculate duration
 -  =Average Subscription Duration() was used to calculate average subscription duration
  - =Countif() was used to calculate the most populous subscriptiontype
- 
+ ![Screenshot 2024-10-24 133414](https://github.com/user-attachments/assets/c578b3dc-c2ea-4871-8287-50fb5f442585)
+
 ### Visulization 
+
+
+
+
+
+
+
 ![Screenshot 2024-11-02 122836](https://github.com/user-attachments/assets/32d17c1e-2807-47e6-bb68-02c6bb690f8a)
+
+![Screenshot 2024-11-02 135153](https://github.com/user-attachments/assets/abf808d2-0545-460a-b9d7-1dd4564a1dbe)
+
 
 ![Average Subcsription Duration](https://github.com/user-attachments/assets/b5b3aad8-a634-40cd-8cc8-73a39e60cb97)
 
