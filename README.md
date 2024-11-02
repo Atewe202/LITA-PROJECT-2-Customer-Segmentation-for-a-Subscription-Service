@@ -1,11 +1,13 @@
 ### LITA-PROJECT-2
--Project 2: Customer Segmentation for a Subscription Service
--Summary: This project involves analyzing customer data for a subscription service to identify
+
+### Topic:  Customer Segmentation for a Subscription Service
+
+### Summary of Porject
+This project involves analyzing customer data for a subscription service to identify
 segments and trends. Your goal is to understand customer behavior, track subscription types,
 and identify key trends in cancellations and renewals. The final deliverable is a Power BI
 dashboard that presents your analysis.
 
-### Summary of Porject
 ### Objectives of the Project
 1. Excel:
  - Analyze customer data using pivot tables to find subscription patterns.
@@ -34,8 +36,14 @@ dashboard that presents your analysis.
 ### Data Source
 
 ### Tools Used
-
-### Data Cleaning
+-Excel: Pivot tables, charts and statistical functions
+-SQL: Queries, aggregation and data visualization
+- Power BI for Data visualization
+- 
+### Data Preparation
+- Cleaning of data was done in excel to remove duplicates
+- Revenue collumn was created in excel before exporting to SQL studio and Power BI desktop
+- conditional and custom collumns were created in power BI
 
 ### Explaratory Data Analysis
 
