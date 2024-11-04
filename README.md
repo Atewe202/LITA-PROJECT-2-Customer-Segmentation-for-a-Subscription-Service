@@ -155,10 +155,15 @@ Recommendation
 
   - find the total number of active and canceled subscriptions.
   - ![Screenshot 2024-11-02 175612](https://github.com/user-attachments/assets/1ef21de9-5842-425c-ae2a-5f2939003658)
-
+ 
+    ### Customer Segmentation Findings
+    - The customers from the East only subscribe to Basic subscription type.
+    - The ones from the West subscribes only  Standard while the South onle Subscribe to Standard
+    - the pattern shows localozation of services. Each region has settled for was they feel is best for them
+    - While from the 
+    - No customer from the East canceled their subscrption, which might suggest they being satisfactied with the services  
+    - 
     
-
-
 ### Data Analysis
 - - Datedif(SubscriptionStart, SubscriptionEnd, "D") was used to calculate duration
 -  =Average Subscription Duration() was used to calculate average subscription duration
@@ -167,6 +172,7 @@ Recommendation
 
 ### Visulization 
 
+![Screenshot 2024-11-05 085517](https://github.com/user-attachments/assets/fc0fe391-0fb1-4668-a1e2-2785bdba134e)
 
 
 
