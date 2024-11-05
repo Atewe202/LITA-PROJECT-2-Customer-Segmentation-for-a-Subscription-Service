@@ -1,16 +1,26 @@
 ### LITA-PROJECT-2
 
+ ### OUTLINE
+  - Objective
+  - Data Sources
+  - Tolol used
+  - Data Cleaning and Preparation
+  - Exploratory Data Analysis
+  - Visualization
+  - Findings
+  - Recommendations
+    
 ### Topic:  Customer Segmentation for a Subscription Service
 
 ### Summary of Porject
 This project involves analyzing customer data for a subscription service to identify
-segments and trends. Your goal is to understand customer behavior, track subscription types,
+segments and trends. The goal is to understand customer behavior, track subscription types,
 and identify key trends in cancellations and renewals. The final deliverable is a Power BI
-dashboard that presents your analysis.
+dashboard that presents the analysis.
 
 ### Objectives of the Project
 1. Excel:
- - Analyze customer data using pivot tables to find subscription patterns.
+ - To analyze customer data using pivot tables to find subscription patterns.
  - Calculate the average subscription duration and identify the most popular
      subscription types.
  - Create any other interesting reports.
@@ -48,13 +58,14 @@ The dataset include the following key columns
 ### Tools Used
 -Excel: use of Pivot tables summarize total sales by product, region, and month,  use of charts, statistical functions and visualization
 -SQL: Queries and aggregation 
-- Power BI for Data visualization use of  Bar charts, pie charts, Dounts, Card
--  Use of Slicer as filter
+- Power BI for  visualization with the use of  Bar charts, pie charts, Dounts, Card
+-  Use of Slicer for interactive analysis
 
-### Data Cleaning Preparation
-- Cleaning of data was done in excel to remove duplicates
+### Data Cleaning and Preparation
+- Cleaning of data was done in exceland Poer BI to remove duplicates
 - Duration of subscription in days column was created in excel before exporting to SQL studio and Power BI desktop
-- conditional and custom columns were created in power BI
+- conditional columns were created in power BI
+- Also measured values were generated
 
 ### Explaratory Data Analysis
 Excel:summarize
@@ -128,6 +139,9 @@ Recommendation
 - Examine impact of pricing on revenue growth
 - Monthly promotions  can be introduced e.g incentives/discount for early subscription
 
+ ![Screenshot 2024-10-24 133414](https://github.com/user-attachments/assets/c578b3dc-c2ea-4871-8287-50fb5f442585)
+
+
   ### SQL
   Write queries to extract key insights based on the following questions.
   - retrieve the total number of customers from each region.
@@ -146,7 +160,6 @@ Recommendation
   - find customers with subscriptions longer than 12 months.
  -![image](https://github.com/user-attachments/assets/0f0d1a2f-052a-4e9e-a0a1-ff2a94ee1876)
 
-    
   - calculate total revenue by subscription type.
   - ![Screenshot 2024-11-02 175845](https://github.com/user-attachments/assets/d13b2bf1-d38e-4bc3-b415-563549d917d2)
 
@@ -168,34 +181,37 @@ Recommendation
 - - Datedif(SubscriptionStart, SubscriptionEnd, "D") was used to calculate duration
 -  =Average Subscription Duration() was used to calculate average subscription duration
  - =Countif() was used to calculate the most populous subscriptiontype
- ![Screenshot 2024-10-24 133414](https://github.com/user-attachments/assets/c578b3dc-c2ea-4871-8287-50fb5f442585)
+- Use of  sql  queries
+  
+  --- SELECT SubscriptionType, SUM(Revenue) AS TOTALREVENUE FROM [dbo].[LITA CUSTOMERDATA]
+       GROUP BY SubscriptionType 
 
 ### Visulization 
 
 ![Screenshot 2024-11-05 085517](https://github.com/user-attachments/assets/fc0fe391-0fb1-4668-a1e2-2785bdba134e)
 
+### Findings
+- Customers segmentation subscription services have basically threee categories of services.
+- The top performing subscription type is Basic. All regional performance is same.
+- The analysis shown that each region subscribe to only a category.
+- Basic subscriptions have subscribers only from East and North regions, while platium have subscribers only from the South and Standard  subscribers from the West. 
+- The pattern shows that each region has their prefernce. 
+- Revenue generated across the regions were approximately the same 17M and average subscribe base is 8447
+- From the category Basic contributed 50% of the  total revenue generated while platium ang Standard generated 15% each
+- On further breadown of Basic revenue, it was discovered the top performance was due to it's revenue generated from two regions against the other two that came from one regioneach
+- Further analysis of category by region showed a 25% contribution by the different region by category  
+- Analysis of the cancelation rate pattern shown 45% of subscription was canceled which is huge.
+- The data showned that no subscriber  from the Eastern region canceled their subscription which is a plus to the company.
+- 15% of canceled scribers are from North, South and West
+- The revenue generated in 2022 was 40,538,438 which is 60% of the total revenue generated in the two years
+- While n 2023 revenue generated is 25,001,737 which is 40% of the total revenue.
+- The drop in revenue could be due to the harsh economic situation
+- A look at the subscription pattern shows that subscribers subscrbe for annually.
 
 
-
-
-
-![Screenshot 2024-11-02 122836](https://github.com/user-attachments/assets/32d17c1e-2807-47e6-bb68-02c6bb690f8a)
-
-![Screenshot 2024-11-02 135153](https://github.com/user-attachments/assets/abf808d2-0545-460a-b9d7-1dd4564a1dbe)
-
-
-![Average Subcsription Duration](https://github.com/user-attachments/assets/b5b3aad8-a634-40cd-8cc8-73a39e60cb97)
-
- ![Most Popular Subscription Type - BASIC](https://github.com/user-attachments/assets/613271a0-52be-4a5e-a206-f56a4ce4dec8)
-
- ![Customer Data Subscription Pattern A-Pivotable](https://github.com/user-attachments/assets/a4368d55-c6d3-4e8a-9105-a7893ce442d6)
-
- ![Customer Data Subscription Pattern B-Pivotable](https://github.com/user-attachments/assets/114f5a69-ee80-46d0-9a3a-ff5a12c93964)
- 
-![Customer Data Performance Report png](https://github.com/user-attachments/assets/1c81f629-5e31-4014-a148-da89ca064d5e)
-
-
-
+### Recommendation
+- There was be strategic effort to introduce other services to other regions and if need be do a promo
+- there is need to find out what could be responsible for the high rate of cancelation of subscription, probably due to poor services, economic forces or competitive market forces
  
 
 
